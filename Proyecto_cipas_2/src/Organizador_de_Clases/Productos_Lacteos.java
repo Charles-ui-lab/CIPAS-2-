@@ -14,6 +14,10 @@ public class Productos_Lacteos {
         this.sabor = sabor;
         this.precio = precio;
     }
+    
+    public void MostrarInforme1(){
+        System.out.println("Marcar :"+marca+" Presentacion : "+presentacion+" Sabor : "+sabor+" Precio : "+precio);
+    }
 
 
 }
